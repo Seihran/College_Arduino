@@ -1,0 +1,93 @@
+const byte noteA = A8;
+const byte noteC = A9;
+const byte noteD = A10;
+const byte noteE = A11;
+const byte noteF = A12;
+const byte noteG = A13;
+
+void setup()
+{
+  pinMode(noteA, OUTPUT);
+  pinMode(noteC, OUTPUT);
+  pinMode(noteD, OUTPUT);
+  pinMode(noteE, OUTPUT);
+  pinMode(noteF, OUTPUT);
+  pinMode(noteG, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(noteC, HIGH);
+  delay(1000);
+  digitalWrite(noteC, LOW);
+  digitalWrite(noteG, HIGH);
+  delay(1000);
+  digitalWrite(noteG, LOW);
+  digitalWrite(noteA, HIGH);
+  delay(1000);
+  digitalWrite(noteA, LOW);
+  digitalWrite(noteG, HIGH);
+  delay(2000);
+  digitalWrite(noteG, LOW);
+  digitalWrite(noteF, HIGH);
+  delay(1000);
+  digitalWrite(noteF, LOW);
+  digitalWrite(noteE, HIGH);
+  delay(1000);
+  digitalWrite(noteE, LOW);
+  digitalWrite(noteD, HIGH);
+  delay(1000);
+  digitalWrite(noteD, LOW);
+  digitalWrite(noteC, HIGH);
+  delay(2000);
+  digitalWrite(noteC, LOW);
+  digitalWrite(noteG, HIGH);
+  delay(1000);
+  digitalWrite(noteG, LOW);
+  digitalWrite(noteF, HIGH);
+  delay(1000);
+  digitalWrite(noteF, LOW);
+  digitalWrite(noteE, HIGH);
+  delay(1000);
+  digitalWrite(noteE, LOW);
+  digitalWrite(noteD, HIGH);
+  delay(2000);
+  digitalWrite(noteD, LOW);
+  digitalWrite(noteG, HIGH);
+  delay(1000);
+  digitalWrite(noteG, LOW);
+  digitalWrite(noteF, HIGH);
+  delay(1000);
+  digitalWrite(noteF, LOW);
+  digitalWrite(noteE, HIGH);
+  delay(1000);
+  digitalWrite(noteE, LOW);
+  digitalWrite(noteD, HIGH);
+  delay(2000);
+  digitalWrite(noteD, LOW);
+  digitalWrite(noteC, HIGH);
+  delay(1000);
+  digitalWrite(noteC, LOW);
+  digitalWrite(noteG, HIGH);
+  delay(1000);
+  digitalWrite(noteG, LOW);
+  digitalWrite(noteA, HIGH);
+  delay(1000);
+  digitalWrite(noteA, LOW);
+  digitalWrite(noteG, HIGH);
+  delay(2000);
+  digitalWrite(noteG, LOW);
+  digitalWrite(noteF, HIGH);
+  delay(1000);
+  digitalWrite(noteF, LOW);
+  digitalWrite(noteE, HIGH);
+  delay(1000);
+  digitalWrite(noteE, LOW);
+  digitalWrite(noteD, HIGH);
+  delay(1000);
+  digitalWrite(noteD, LOW);
+  digitalWrite(noteC, HIGH);
+  delay(2000);
+  digitalWrite(noteC, LOW);
+  delay(2000);
+}
